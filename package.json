@@ -1,0 +1,15 @@
+{
+  "license": "UNLICENSED",
+  "scripts": {
+    "now": "npx easygraphql-now schema.gql --local -p=5000 --graphiql",
+    "easygraphql-load-tester": "artillery run artillery.yml"
+  },
+  "dependencies": {
+    "easygraphql-load-tester": "^2.0.3",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "artillery": "^1.6.0",
+    "merge-graphql-schemas": "^1.7.8"
+  }
+}
